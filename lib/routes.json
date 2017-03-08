@@ -435,12 +435,12 @@
                 "/repos/:owner/:repo/deployments",
                 "/repos/:owner/:repo/deployments/:id/statuses"
             ],
-            
+
             "application/vnd.github.cryptographer-preview": [
                 "/user/gpg_keys",
                 "/user/gpg_keys/:id"
             ],
-            
+
             "application/vnd.github.barred-rock-preview": [
                 "/repos/:owner/:repo/import/authors",
                 "/repos/:owner/:repo/import/authors/:author_id",
@@ -448,7 +448,7 @@
                 "/:owner/:name/import/large_files",
                 "/repos/:owner/:repo/import"
             ],
-            
+
             "application/vnd.github.machine-man-preview": [
                 "/integration/installations",
                 "/installations/:installation_id/access_tokens",
@@ -456,21 +456,21 @@
                 "/installation/repositories",
                 "/installations/:installation_id/repositories/:repository_id"
             ],
-            
+
             "application/vnd.github.drax-preview+json": [
                 "/licenses",
                 "/licenses/:license",
                 "/repos/:owner/:repo",
                 "/repos/:owner/:repo/license"
             ],
-            
+
             "application/vnd.github.wyandotte-preview+json": [
                 "/orgs/:org/migrations",
                 "/orgs/:org/migrations/:id",
                 "/orgs/:org/migrations/:id/archive",
                 "/orgs/:org/migrations/:id/repos/:repo_name/lock"
             ],
-            
+
             "application/vnd.github.korra-preview+json": [
                 "/orgs/:org",
                 "/orgs/:org/invitations",
@@ -481,14 +481,14 @@
                 "/repos/:owner/:repo/collaborators/:username/permission",
                 "/teams/:id/invitations"
             ],
-            
+
             "application/vnd.github.mister-fantastic-preview+json": [
                 "/repos/:owner/:repo/pages",
                 "/repos/:owner/:repo/pages/builds",
                 "/repos/:owner/:repo/pages/builds/latest",
                 "/repos/:owner/:repo/pages/builds/:id"
             ],
-            
+
             "application/vnd.github.eye-scream-preview": [
                 "/admin/pre-receive-environments/:id",
                 "/admin/pre_receive_environments",
@@ -497,7 +497,7 @@
                 "/admin/pre-receive-hooks/:id",
                 "/admin/pre-receive-hooks"
             ],
-            
+
             "application/vnd.github.inertia-preview+json": [
                 "/repos/:owner/:repo/projects",
                 "/orgs/:org/projects",
@@ -509,7 +509,7 @@
                 "/projects/columns/:id",
                 "/projects/columns/:id/moves"
             ],
-            
+
             "application/vnd.github.loki-preview+json": [
                 "/repos/:owner/:repo/branches",
                 "/repos/:owner/:repo/branches/:branch",
@@ -520,11 +520,11 @@
                 "/repos/:owner/:repo/branches/:branch/protection/restrictions/teams",
                 "/repos/:owner/:repo/branches/:branch/protection/restrictions/users"
             ],
-            
+
             "application/vnd.github.polaris-preview": [
                 "/repos/:owner/:repo/pulls/:number/merge"
             ],
-            
+
             "application/vnd.github.squirrel-girl-preview": [
                 "/repos/:owner/:repo/comments/:id/reactions",
                 "/repos/:owner/:repo/issues/:number/reactions",
@@ -532,14 +532,14 @@
                 "/repos/:owner/:repo/pulls/comments/:id/reactions",
                 "/reactions/:id"
             ],
-            
+
             "application/vnd.github.spiderman-preview": [
                 "/repos/:owner/:repo/traffic/popular/referrers",
                 "/repos/:owner/:repo/traffic/popular/paths",
                 "/repos/:owner/:repo/traffic/views",
                 "/repos/:owner/:repo/traffic/clones"
             ],
-            
+
             "application/vnd.github.mockingbird-preview": [
                 "/repos/:owner/:repo/issues/:issue_number/timeline"
             ]
@@ -1180,7 +1180,7 @@
             },
             "description": "List a user's gists"
         },
-        
+
         "get-all": {
             "url": "/gists",
             "method": "GET",
@@ -1191,7 +1191,7 @@
             },
             "description": "List the authenticated user's gists or if called anonymously, this will return all public gists"
         },
-        
+
         "get-public": {
             "url": "/gists/public",
             "method": "GET",
@@ -1697,7 +1697,7 @@
             },
             "description": "List the integration's installations. (In preview period. See README.)"
         },
-        
+
         "create-installation-token": {
             "url": "/installations/:installation_id/access_tokens",
             "method": "POST",
@@ -1713,7 +1713,7 @@
             },
             "description": "Create a new installation token. (In preview period. See README.)"
         },
-        
+
         "get-user-identity": {
             "url": "/integration/identity/user",
             "method": "POST",
@@ -1728,7 +1728,7 @@
             },
             "description": "Request identity of user. (In preview period. See README.)"
         },
-        
+
         "get-installation-repositories": {
             "url": "/installation/repositories",
             "method": "GET",
@@ -1743,7 +1743,7 @@
             },
             "description": "List repositories that are accessible to the authenticated installation. (In preview period. See README.)"
         },
-        
+
         "add-repo-to-installation": {
             "url": "/installations/:installation_id/repositories/:repository_id",
             "method": "POST",
@@ -1753,7 +1753,7 @@
             },
             "description": "Add a single repository to an installation. (In preview period. See README.)"
         },
-        
+
         "remove-repo-from-installation": {
             "url": "/installations/:installation_id/repositories/:repository_id",
             "method": "POST",
@@ -2309,7 +2309,7 @@
             },
             "description": "Get a single event"
         },
-        
+
         "get-labels": {
             "url": "/repos/:owner/:repo/labels",
             "method": "GET",
@@ -2575,7 +2575,7 @@
             },
             "description": "Delete a milestone"
         },
-        
+
         "get-events-timeline": {
             "url": "/repos/:owner/:repo/issues/:issue_number/timeline",
             "method": "GET",
@@ -3198,7 +3198,7 @@
             },
             "description": "Remove organization membership"
         },
-        
+
         "get-pending-org-invites": {
             "url": "/orgs/:org/invitations",
             "method": "GET",
@@ -3207,7 +3207,7 @@
             },
             "description": "List pending organization invites."
         },
-        
+
         "get-outside-collaborators": {
             "url": "/orgs/:org/outside_collaborators",
             "method": "GET",
@@ -3218,7 +3218,7 @@
             },
             "description": "List all users who are outside collaborators of an organization."
         },
-        
+
         "remove-outside-collaborator": {
             "url": "/orgs/:org/outside_collaborator/:username",
             "method": "DELETE",
@@ -3228,7 +3228,7 @@
             },
             "description": "Remove outside collaborator."
         },
-        
+
         "convert-member-to-outside-collaborator": {
             "url": "/orgs/:org/outside_collaborator/:username",
             "method": "PUT",
@@ -3387,7 +3387,7 @@
             },
             "description": "Get team repos"
         },
-        
+
         "get-pending-team-invites": {
             "url": "/teams/:id/invitations",
             "method": "GET",
@@ -3592,7 +3592,7 @@
             },
             "description": "Create a repository project. (In preview period. See README.)"
         },
-        
+
         "create-org-project": {
             "url": "/orgs/:org/projects",
             "method": "POST",
@@ -3623,7 +3623,7 @@
             },
             "description": "Delete a project. (In preview period. See README.)"
         },
-        
+
         "get-project-cards": {
             "url": "/projects/columns/:column_id/cards",
             "method": "GET",
@@ -4430,7 +4430,7 @@
             },
             "description": "Create a new repository for the authenticated user."
         },
-        
+
         "get": {
             "url": "/repos/:owner/:repo",
             "method": "GET",
@@ -4988,10 +4988,10 @@
                 "affiliation": {
                     "type": "String",
                     "required": false,
-                    "validation": "^(outside|all)$",
-                    "invalidmsg": "outside, all, default: all",
+                    "validation": "^(outside|all|direct)$",
+                    "invalidmsg": "outside, all, direct, default: all",
                     "description": "Filter collaborators returned by their affiliation.",
-                    "enum": ["outside", "all"],
+                    "enum": ["outside", "all", "direct"],
                     "default": "all"
                 },
                 "$page": null,
@@ -5010,7 +5010,7 @@
             },
             "description": "Check if user is a collaborator."
         },
-        
+
         "review-user-permission-level": {
             "url": "/repos/:owner/:repo/collaborators/:username/permission",
             "method": "GET",
@@ -5021,7 +5021,7 @@
             },
             "description": "Review a user's permission level."
         },
-        
+
         "add-collaborator": {
             "url": "/repos/:owner/:repo/collaborators/:username",
             "method": "PUT",
@@ -6533,7 +6533,7 @@
             },
             "description": "Get a single user"
         },
-        
+
         "get-by-id": {
             "url": "/user/:id",
             "method": "GET",
@@ -6542,7 +6542,7 @@
             },
             "description": "Get a single user by GitHub ID"
         },
-        
+
         "get": {
             "url": "/user",
             "method": "GET",
@@ -7048,7 +7048,7 @@
             "url": "/enterprise/settings/license",
             "method": "GET",
             "params": {
-                
+
             },
             "description": "Get license information"
         },
@@ -7061,7 +7061,7 @@
             },
             "description": "Get a single pre-receive environment. (In preview period. See README.)"
         },
-        
+
         "get-pre-receive-environments": {
             "url": "/admin/pre_receive_environments",
             "method": "GET",
@@ -7069,7 +7069,7 @@
             },
             "description": "List pre-receive environments. (In preview period. See README.)"
         },
-        
+
         "create-pre-receive-environment": {
             "url": "/admin/pre_receive_environments",
             "method": "POST",
@@ -7091,7 +7091,7 @@
             },
             "description": "Create a pre-receive environment. (In preview period. See README.)"
         },
-        
+
         "edit-pre-receive-environment": {
             "url": "/admin/pre_receive_environments/:id",
             "method": "PATCH",
@@ -7114,7 +7114,7 @@
             },
             "description": "Create a pre-receive environment. (In preview period. See README.)"
         },
-        
+
         "delete-pre-receive-environment": {
             "url": "/admin/pre_receive_environments/:id",
             "method": "DELETE",
@@ -7123,7 +7123,7 @@
             },
             "description": "Delete a pre-receive environment. (In preview period. See README.)"
         },
-        
+
         "get-pre-receive-environment-download-status": {
             "url": "/admin/pre-receive-environments/:id/downloads/latest",
             "method": "GET",
@@ -7132,7 +7132,7 @@
             },
             "description": "Get a pre-receive environment's download status. (In preview period. See README.)"
         },
-        
+
         "trigger-pre-receive-environment-download": {
             "url": "/admin/pre_receive_environments/:id/downloads",
             "method": "POST",
@@ -7141,7 +7141,7 @@
             },
             "description": "Trigger a pre-receive environment download. (In preview period. See README.)"
         },
-        
+
         "get-pre-receive-hook": {
             "url": "/admin/pre-receive-hooks/:id",
             "method": "GET",
@@ -7150,7 +7150,7 @@
             },
             "description": "Get a single pre-receive hook. (In preview period. See README.)"
         },
-        
+
         "get-pre-receive-hooks": {
             "url": "/admin/pre-receive-hooks",
             "method": "GET",
@@ -7158,7 +7158,7 @@
             },
             "description": "List pre-receive hooks. (In preview period. See README.)"
         },
-        
+
         "create-pre-receive-hook": {
             "url": "/admin/pre-receive-hooks",
             "method": "POST",
@@ -7210,7 +7210,7 @@
             },
             "description": "Create a pre-receive hook. (In preview period. See README.)"
         },
-        
+
         "edit-pre-receive-hook": {
             "url": "/admin/pre_receive_hooks/:id",
             "method": "PATCH",
@@ -7227,7 +7227,7 @@
             },
             "description": "Edit a pre-receive hook. (In preview period. See README.)"
         },
-        
+
         "delete-pre-receive-hook": {
             "url": "/admin/pre_receive_hooks/:id",
             "method": "DELETE",
